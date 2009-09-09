@@ -1,0 +1,143 @@
+Add AI
+Option to remove spells once cast!
+Wall - select MIDDLE of square
+Tell player when their creature is invisble.
+SHow how much health reduced by with floating number
+
+Change web background
+Big words flashing across screen
+Have better wizard dying anim.
+Add linux batch files
+Add tune
+Add options
+Have spell descriptions
+Add syncronized to all net conn's!
+
+ * Sort out Psiren
+ * Do a maze layout
+
+* Chance of loosing spell when cast?
+ * Icons
+ * Show I against illusion
+ * Make death more noticeable
+ * Make range select flash
+ * Steeds
+ * Magic Trees - Give extra spell
+ * Pentangle to recharge mana
+ * Show current player names
+
+ * Spells:
+ * Tornado
+ * Freeze water
+ * Flood
+ * Zone of undead immunity
+ * Wind of Death
+ * Illusion of fire/wall
+ * ID illusions
+ * Amoeba assimilator
+ * Haste
+ * Steadfast
+ * Plague - passed on when touched
+ * f/x - Undead range
+ * Dimension Door
+ * Free creature
+ * Transfer Spririt
+ * Lycanthrope
+ * Remove
+ * Emergency teleport spell
+ * Magic Armour
+ * Shadow Form
+ * Scare
+ * Gate
+ * Elementals
+ * Chain lightening
+ *
+ *
+ * Protocol
+ * Server to Client
+ * byte
+ * 1 - New map
+ *   int width
+ *   int height
+ *   int type
+ * 2 - object update
+ *   int no
+ *   int x_pos
+ *   int rect.y
+ *   byte angle (div 2)
+ *   byte health
+ *   CHECK 0
+ * 3 - New object
+ *   int no
+ *   int type
+ *   int side
+ *   CHECK 0
+ * 4 - Player no
+ *   int no
+ * 5 - Remove object
+ *   int no
+ *   CHECK 0
+ * 6 - Spellbook update
+ *   int no of spells
+ *   int spell_no's
+ *   CHECK 0
+ * 7 - Message
+ *   byte length
+ *   chars
+ *   CHECK 0
+ * 8 - Player update
+ *   int mana
+ *   CHECK 0
+ * 9 - Hide object
+ *   int no
+ *   CHECK 0
+ * 10 - Players name
+ *   byte player_no
+ *   byte name_length
+ *   chars name
+ *   CHECK 0
+ * 11 - Map Square update
+ *   int x
+ *   int y
+ *   int type
+ *   CHECK 0
+ * 12 - Explosion
+ *   int rect.x
+ *   int rect.y
+ *   int size
+ *   CHECK BYTE
+ * 13 - Bullet flash
+ *   int rect.x
+ *   int rect.y
+ *   CHECK BYTE
+ * 14 - Object text
+ *   int object_no
+ *   byte length
+ *   chars
+ *   CHECK 0
+ * 15 - Show object
+ *   int no
+ *   CHECK 0
+ *
+ *
+ *
+ * Client to server
+ * byte
+ * 1 - Name
+ *   byte length
+ *   chars
+ * 2 - Destination
+ *   int no
+ *   int x
+ *   int y
+ *   BYTE CHECK 0
+ * 3 - Disconnecting
+ * 5 - Target enemy
+ *   int no
+ * 6 - Cast spell
+ *   int spell_type
+ *   int x
+ *   int y
+ *   boolean illusion
+ *
+ *
