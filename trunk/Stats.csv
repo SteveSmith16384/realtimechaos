@@ -1,0 +1,22 @@
+Name,Type,att,def,max health,acc,speed,range,shot power,reload,undead,mr,width,height,can_select,filename,under_obj,cost,extra cost,
+Bullet,9,0,0,1000,0,5,0,0,0,N,0,4,4,N,bullet,,,,
+Gooey Blob,18,0,3,100,0,0,0,0,0,N,0,47,44,N,gooey_blob,N,,,
+Wall,5,0,6,0,0,0,0,0,0,N,0,50,50,N,wall,N,,,
+Wizard,13,1,2,100,0,1.1,0,0,0,N,9,32,31,Y,~,N,,,
+Orc,11,3,1,200,0,1.1,0,0,0,N,1,30,24,Y,orc,N,339,,
+Dwarf,12,1,3,150,0,1.1,0,0,0,N,1,24,23,Y,dwarf,N,326,,
+Knight,19,4,3,150,0,1,0,0,0,N,2,32,46,Y,knight,N,775,,
+Troll,20,5,5,200,0,1.1,0,0,0,N,2,39,35,Y,troll,N,1414,,
+Ogre,21,7,7,300,0,1,0,0,0,N,2,51,44,Y,ogre,N,2638,,
+Mounted Skel,15,4,3,150,0,2,0,0,0,Y,2,35,45,Y,MountedSkeleton,N,788,x 2,undead
+Archer,16,2,2,150,2,1,6,2,100,N,2,44,42,Y,archer,N,350,100,shoot
+Corpse,10,0,0,0,0,0,0,0,0,N,0,35,59,N,corpse,Y,,,
+Magic Fire,24,0,0,0,0,0,0,0,0,Y,0,50,50,N,magic_fire,N,,,
+Ghost,22,4,3,150,0,1.1,0,0,0,Y,2,45,39,Y,ghost,N,776,x 2,undead
+Mummy,17,3,3,150,0,0.9,0,0,0,Y,2,41,48,Y,mummy,N,599,x 2,undead
+Hydra,25,6,6,200,0,0.9,0,0,0,N,2,64,48,Y,hydra,N,1961,,
+Shadow Wood,26,2,5,200,0,0,0,0,0,N,1,28,60,N,ShadowWood,N,800,,
+Dragon,27,9,9,300,1,1.1,4,2,150,N,4,89,116,Y,dragon,N,4539,100,Shoot
+Psiren,28,1,1,100,0,1.1,0,0,0,N,3,31,54,Y,psiren,N,314,,
+Vortex,29,0,0,0,0,1,0,0,0,N,0,100,100,N,vortex,N,,,
+Doppleganger,30,1,2,100,0,1.1,0,0,0,N,9,32,31,Y,~,N,,,
