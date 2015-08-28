@@ -1,0 +1,1 @@
+Realtime Chaos is a simple RTS.  Each player controls a wizard who can cast a whole range of spells.  Some of these spells create other creatures that can do battle for the wizard, while other spells create wierd and wonderful effects that can help destroy with wizards enemies.  The game is multi-player, played across a LAN or the internet.
