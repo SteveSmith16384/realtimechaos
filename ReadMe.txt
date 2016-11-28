@@ -55,5 +55,11 @@ Change Log
 
 1.1 - Got it working
 
+
+Licence
+-------
+All code licenced under GPL.
+
+
 --
 Stephen Smith <steve16384@users.sourceforge.net>
